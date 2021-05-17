@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(179,52,178,1) 0%, rgba(182,120,49,1) 28%, rgba(106,68,159,1) 56%, rgba(23,137,190,1) 78%, rgba(0,212,255,1) 100%);
+    display: grid;
+    place-items: center;
+}
+.container{
+    backdrop-filter: blur(5px);
+    height: 67vh;
+    width: 23vw;
+    background: radial-gradient(at center, rgba(214, 202, 202, 0.05), rgba(224, 217, 217, 0.5));
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #5c5c5c, -1px -1px 2px #5c5c5c;
+}
+.text{
+    text-align: center;
+}
+.text h1{
+    margin: 5px;
+}
+.inp{
+    margin: 5px 15px;
+}
+input.input{
+    border: none;
+    outline: none;
+    background: radial-gradient(at center, rgba(222, 202, 202, 0.05), rgba(224, 217, 217, 0.5));
+    margin: 13px;
+    height: 40px;
+    width: 300px;
+    box-shadow: 1px 1px 2px #5c5c5c, -1px -1px 2px #5c5c5c;
+    border-radius: 8px;
+    padding: 0 15px;
+    color: white;
+    font-size: 20px;
+}
+::placeholder{
+    color: #fff;
+}
+
+input.check{
+    height: 13px;
+    margin: 0 15px;
+}
+.value{
+    position: absolute;
+    margin-top: -22px;
+    font-size: 15px;
+    margin-left: 33px;
+}
+.button button{
+    margin: 10px 15px;
+    height: 40px;
+    width: 100px;
+    background: #0489EE;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px #4b4b4b, -1px -1px 1px #4b4b4b;
+}
+.login{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 35px;
+}
+.login a{
+    margin: 0 5px;
+}
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
